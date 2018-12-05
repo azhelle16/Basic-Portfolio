@@ -7,17 +7,18 @@ header {
 footer {
 	border-top: 8px solid #4aaaa5;
 	background-color: #666666;
-	position: absolute;
+	position: fixed;
 	width: 100%;
 	bottom: 0;
 	color: white;
 	text-align: center;
-	padding-top: 40px;
+	padding-top: 30px;
 }
 
 body {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	margin: 0;
+	background-image: url("../images/ep_naturalwhite.png");
 }
 
 .headingFonts {
@@ -59,7 +60,6 @@ nav {
 }
 
 #mainContainer {
-	background-image: url("../images/ep_naturalwhite.png");
 	height: 100%;
 	width: 100%;
 	margin: 0;
@@ -73,9 +73,6 @@ nav {
 	width: 960px;
 	background-color: #ffffff;
 	overflow: auto;
-	/*top: 50%;*/
-	/*left: 50%;*/
-	/*transform: translate(-50%,-70%);*/
 	position: relative;
 	margin: 20px auto;
 }
@@ -93,12 +90,14 @@ nav {
 	float: left;
 	margin-right: 25px;
 	margin-bottom: 10px; 
+	height: 260px;
+	width: 250px;
 }
 
 p {
 	line-height: 25px;
 	text-align: justify;
-	margin-block-start:	0;
+	margin-top: 0px;
 	color: #777777;
 }
 
@@ -184,10 +183,14 @@ h5 span:hover {
 .iwrap:hover {
 	border-radius: 15px;
 	border: 2px dashed #7d29c6;
-	/*margin-right: 30px;*/
 }
 
 .projectTitle:hover {
 	background-color: #7d29c6;
 	cursor: pointer;
+}
+
+.imgsize {
+	width: 300px;
+	height: 200px;
 }
