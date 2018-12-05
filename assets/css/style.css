@@ -59,12 +59,12 @@ nav {
 	color: #777777;
 }
 
-#mainContainer {
-	height: 100%;
-	width: 100%;
-	margin: 0;
-	position: fixed;
-}
+/*#mainContainer {*/
+	/*height: 100%;*/
+	/*width: 100%;*/
+	/*margin: 0;*/
+	/*position: fixed;*/
+/*}*/
 
 #content1, #content2, #content3 {
 	border: 1px #dddddd solid;
